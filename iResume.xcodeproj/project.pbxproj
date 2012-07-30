@@ -15,6 +15,10 @@
 		A35F171715C6A6F300F59AF2 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A35F171615C6A6F300F59AF2 /* AppDelegate.m */; };
 		A35F171A15C6A6F300F59AF2 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A35F171915C6A6F300F59AF2 /* ViewController.m */; };
 		A35F171D15C6A6F300F59AF2 /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A35F171B15C6A6F300F59AF2 /* ViewController.xib */; };
+		A35F172415C6A71000F59AF2 /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = A35F172315C6A71000F59AF2 /* Icon.png */; };
+		A35F172615C6A71400F59AF2 /* Icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A35F172515C6A71400F59AF2 /* Icon@2x.png */; };
+		A35F172815C6ADDE00F59AF2 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = A35F172715C6ADDE00F59AF2 /* Default.png */; };
+		A35F172A15C6ADE900F59AF2 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A35F172915C6ADE900F59AF2 /* Default@2x.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,15 +26,19 @@
 		A35F170615C6A6F300F59AF2 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		A35F170815C6A6F300F59AF2 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		A35F170A15C6A6F300F59AF2 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		A35F170E15C6A6F300F59AF2 /* iResume-Info.plist */ = {isa = PBXFileReference; path = "iResume-Info.plist"; sourceTree = "<group>"; };
+		A35F170E15C6A6F300F59AF2 /* iResume-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "iResume-Info.plist"; sourceTree = "<group>"; };
 		A35F171015C6A6F300F59AF2 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		A35F171215C6A6F300F59AF2 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		A35F171415C6A6F300F59AF2 /* iResume-Prefix.pch */ = {isa = PBXFileReference; path = "iResume-Prefix.pch"; sourceTree = "<group>"; };
-		A35F171515C6A6F300F59AF2 /* AppDelegate.h */ = {isa = PBXFileReference; path = AppDelegate.h; sourceTree = "<group>"; };
+		A35F171415C6A6F300F59AF2 /* iResume-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "iResume-Prefix.pch"; sourceTree = "<group>"; };
+		A35F171515C6A6F300F59AF2 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		A35F171615C6A6F300F59AF2 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		A35F171815C6A6F300F59AF2 /* ViewController.h */ = {isa = PBXFileReference; path = ViewController.h; sourceTree = "<group>"; };
+		A35F171815C6A6F300F59AF2 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		A35F171915C6A6F300F59AF2 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		A35F171C15C6A6F300F59AF2 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController.xib; sourceTree = "<group>"; };
+		A35F172315C6A71000F59AF2 /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon.png; sourceTree = "<group>"; };
+		A35F172515C6A71400F59AF2 /* Icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon@2x.png"; sourceTree = "<group>"; };
+		A35F172715C6ADDE00F59AF2 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		A35F172915C6ADE900F59AF2 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -50,6 +58,10 @@
 		A35F16F715C6A6F300F59AF2 = {
 			isa = PBXGroup;
 			children = (
+				A35F172915C6ADE900F59AF2 /* Default@2x.png */,
+				A35F172715C6ADDE00F59AF2 /* Default.png */,
+				A35F172515C6A71400F59AF2 /* Icon@2x.png */,
+				A35F172315C6A71000F59AF2 /* Icon.png */,
 				A35F170C15C6A6F300F59AF2 /* iResume */,
 				A35F170515C6A6F300F59AF2 /* Frameworks */,
 				A35F170315C6A6F300F59AF2 /* Products */,
@@ -150,6 +162,10 @@
 			files = (
 				A35F171115C6A6F300F59AF2 /* InfoPlist.strings in Resources */,
 				A35F171D15C6A6F300F59AF2 /* ViewController.xib in Resources */,
+				A35F172415C6A71000F59AF2 /* Icon.png in Resources */,
+				A35F172615C6A71400F59AF2 /* Icon@2x.png in Resources */,
+				A35F172815C6ADDE00F59AF2 /* Default.png in Resources */,
+				A35F172A15C6ADE900F59AF2 /* Default@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
