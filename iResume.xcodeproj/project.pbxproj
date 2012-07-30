@@ -19,6 +19,11 @@
 		A35F172615C6A71400F59AF2 /* Icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A35F172515C6A71400F59AF2 /* Icon@2x.png */; };
 		A35F172815C6ADDE00F59AF2 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = A35F172715C6ADDE00F59AF2 /* Default.png */; };
 		A35F172A15C6ADE900F59AF2 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A35F172915C6ADE900F59AF2 /* Default@2x.png */; };
+		A35F173915C6BB8E00F59AF2 /* TitleViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A35F173715C6BB8D00F59AF2 /* TitleViewController.m */; };
+		A35F173A15C6BB8E00F59AF2 /* TitleViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A35F173815C6BB8D00F59AF2 /* TitleViewController.xib */; };
+		A35F174115C6BDEA00F59AF2 /* me.png in Resources */ = {isa = PBXBuildFile; fileRef = A35F174015C6BDEA00F59AF2 /* me.png */; };
+		A35F174415C6BE0E00F59AF2 /* item.png in Resources */ = {isa = PBXBuildFile; fileRef = A35F174215C6BE0E00F59AF2 /* item.png */; };
+		A35F174515C6BE0E00F59AF2 /* item@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A35F174315C6BE0E00F59AF2 /* item@2x.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -39,6 +44,12 @@
 		A35F172515C6A71400F59AF2 /* Icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon@2x.png"; sourceTree = "<group>"; };
 		A35F172715C6ADDE00F59AF2 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
 		A35F172915C6ADE900F59AF2 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		A35F173615C6BB8D00F59AF2 /* TitleViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TitleViewController.h; sourceTree = "<group>"; };
+		A35F173715C6BB8D00F59AF2 /* TitleViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TitleViewController.m; sourceTree = "<group>"; };
+		A35F173815C6BB8D00F59AF2 /* TitleViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TitleViewController.xib; sourceTree = "<group>"; };
+		A35F174015C6BDEA00F59AF2 /* me.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = me.png; sourceTree = "<group>"; };
+		A35F174215C6BE0E00F59AF2 /* item.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = item.png; sourceTree = "<group>"; };
+		A35F174315C6BE0E00F59AF2 /* item@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "item@2x.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +73,9 @@
 				A35F172715C6ADDE00F59AF2 /* Default.png */,
 				A35F172515C6A71400F59AF2 /* Icon@2x.png */,
 				A35F172315C6A71000F59AF2 /* Icon.png */,
+				A35F174015C6BDEA00F59AF2 /* me.png */,
+				A35F174215C6BE0E00F59AF2 /* item.png */,
+				A35F174315C6BE0E00F59AF2 /* item@2x.png */,
 				A35F170C15C6A6F300F59AF2 /* iResume */,
 				A35F170515C6A6F300F59AF2 /* Frameworks */,
 				A35F170315C6A6F300F59AF2 /* Products */,
@@ -89,6 +103,9 @@
 		A35F170C15C6A6F300F59AF2 /* iResume */ = {
 			isa = PBXGroup;
 			children = (
+				A35F173615C6BB8D00F59AF2 /* TitleViewController.h */,
+				A35F173715C6BB8D00F59AF2 /* TitleViewController.m */,
+				A35F173815C6BB8D00F59AF2 /* TitleViewController.xib */,
 				A35F171515C6A6F300F59AF2 /* AppDelegate.h */,
 				A35F171615C6A6F300F59AF2 /* AppDelegate.m */,
 				A35F171815C6A6F300F59AF2 /* ViewController.h */,
@@ -166,6 +183,10 @@
 				A35F172615C6A71400F59AF2 /* Icon@2x.png in Resources */,
 				A35F172815C6ADDE00F59AF2 /* Default.png in Resources */,
 				A35F172A15C6ADE900F59AF2 /* Default@2x.png in Resources */,
+				A35F173A15C6BB8E00F59AF2 /* TitleViewController.xib in Resources */,
+				A35F174115C6BDEA00F59AF2 /* me.png in Resources */,
+				A35F174415C6BE0E00F59AF2 /* item.png in Resources */,
+				A35F174515C6BE0E00F59AF2 /* item@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -179,6 +200,7 @@
 				A35F171315C6A6F300F59AF2 /* main.m in Sources */,
 				A35F171715C6A6F300F59AF2 /* AppDelegate.m in Sources */,
 				A35F171A15C6A6F300F59AF2 /* ViewController.m in Sources */,
+				A35F173915C6BB8E00F59AF2 /* TitleViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
